@@ -10,3 +10,5 @@ with open("test.txt") as file1:
             df = pd.DataFrame([values.split(' ')], columns=file_headers)
             ## write df to postgres
 ```
+
+CREATE INDEX users_email ON users(email);
